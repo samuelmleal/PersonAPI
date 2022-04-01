@@ -2,8 +2,7 @@ package project.PersonAPI.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
-import project.PersonAPI.DTO.MessageResponseDTO;
+import project.PersonAPI.DTO.Response.MessageResponseDTO;
 import project.PersonAPI.Entity.Person;
 import project.PersonAPI.Repository.PersonRepository;
 
